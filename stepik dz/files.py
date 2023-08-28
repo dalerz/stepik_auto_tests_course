@@ -2,7 +2,7 @@
 # fw.write("var")
 # fw.close()
 
-fr = open("filesss/file.txt", 'r')
+fr = open("../filesss/file.txt", 'r')
 text = fr.read()
 fr.close()
 print(text)
